@@ -1,0 +1,13 @@
+body{
+    background-color: #3C3F58;
+    display: flex;
+}
+
+img{
+    width: 100px;
+
+    display: flex;
+   justify-content: center;
+   margin-top: 300px;
+    margin-left: 600px;
+}

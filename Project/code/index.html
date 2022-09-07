@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A4 ToDo</title>
+    <link rel="icon" href="/Project/icon/A4logo2.ico"
+    style="font-family: Montserrat ;"> 
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+               <!-- side header -->
+             
+               <div class="app">
+                   
+                  
+                      
+                 <div class="menu-toggle">
+                    <div class="hamburger">
+
+                        <span></span>
+                        
+                    </div>
+                 </div>
+
+                   <aside class="sidebar">
+
+                    <h3>A4 ToDo</h3>
+
+                    <nav class="menu">
+                        <!-- <a href="#" class="menu-item is-active">task list</a> -->
+                        <a href="/Project/pomodoro/pomodoro.html" class="menu-item" target="_blank">pomodoro</a>
+                        <!-- <a href="#" class="menu-item">calendar</a> -->
+                        <a href="/Project/about/about.html" class="menu-item" target="_blank">about</a>
+
+                                   <!-- task list -->
+                        <div class="tasks-list">
+
+                            <h2 class="tasks-list-title">My tasks</h2>
+                             
+                            <ul class="task-list" data-lists>
+                                 
+                            </ul>
+                            
+                    
+                            <form action="" data-new-list-form>
+                                <input type="text"
+                                class="new list"
+                                data-new-list-input
+                                placeholder="new list name"
+                                aria-label="new list name"
+                                />
+                                <button class="btn list"  aria-label="craet a new list">+</button>
+                            </form>
+                    
+                        </div>
+  
+                        
+
+
+                        
+
+
+                    </nav>
+
+                   </aside>
+
+                   <main class="content">
+                    <h1>welcom</h1>
+                   </main>
+
+               </div>
+
+                     
+               <div class="task-list">
+
+               </div>
+
+
+
+
+
+      <!-- <h1 class="title">stuff to do</h1> -->
+      
+    <!--  header-->
+    <!-- <header >
+        <h3>ToDo</h3>
+        <img src="A4logo2 copy.ico" alt="logo" srcset="" class="logo" >
+        
+        <nav>
+          
+        </nav>
+        <a href="#down" class="cta"><button>About</button></a>
+        
+    </header> -->
+
+
+
+    <!-- ToDo List work place-->
+
+    <!-- Tasks List-->
+<!-- 
+    <div class="tasks-list">
+
+        <h2 class="tasks-list-title">My tasks</h2>
+
+        <ul class="task-list">
+            <li class="active-list">work on project</li>
+            <li>training</li>
+            <li>clean hous</li>
+        </ul>
+         
+
+        <form action="">
+            <input type="text"
+            class="new-list"
+            placeholder="new list name"
+            aria-label="new list name"
+            />
+            <button class="btn-list"  aria-label="craet a new list">+</button>
+        </form>
+
+    </div> -->
+
+
+
+
+        <!-- ToDo List-->
+
+
+    <!-- <div class="todo-list"> -->
+                  
+                    <!-- header-->
+           <div class="todo" data-list-display-countainer >
+        <div class="todo-header">
+            <h2 class="list-title" data-list-title>work on project</h2>
+            
+            <p class="task-count" data-list-count>3 tasks remaining</p>
+<br>
+        </div>
+                               
+                     <!-- body-->
+
+        <div class="todo-body">
+            <div class="tasks" data-tasks>
+
+                       <!-- task-1
+                <div class="task">
+                    <input type="checkbox"
+                    id="task-1"
+                    
+                    />
+                    <label for="task-1">
+                        <span class="custom-checkbox"></span>
+                        start searching about sources for website
+                    </label>
+                </div> -->
+                        
+                         <!-- task-2
+                        <div class="task">
+                            <input type="checkbox"
+                            id="task-2"
+                            
+                            />
+                            <label for="task-2">
+                                <span class="custom-checkbox"></span>
+                                make header
+                            </label>
+                        </div>  -->
+
+
+                        <!-- task-3
+
+                        <div class="task">
+                            <input type="checkbox"
+                            id="task-3"
+                            
+                            />
+                            <label for="task-3">
+                                <span class="custom-checkbox"></span>
+                                recording video
+                            </label>
+                        </div> -->
+
+            </div>
+
+            <div class="tasks-craetor">
+                <form action="" data-new-task-form>
+                    <input type="text"
+                    data-new-task-input
+                    class="new task"
+                    placeholder="new task name"
+                    aria-label="new task name"
+                    />
+                    <button class="btn task"  aria-label="craet a new list">+</button>
+                </form>
+            </div>
+
+            <div class="delet-stuff">
+                <button class="delet-btn" data-clear-complete-task-button>Clear Compeletd tasks</button>
+                <button class="delet-btn" data-delete-list-button>Delete List</button>
+            </div>
+
+        </div>
+    </div>
+    
+    </div>
+
+    <template id="task-templete">
+        <div class="task">
+            <input type="checkbox" />
+            <label>
+                <span class="custom-checkbox"></span>
+              
+            </label>
+        </div>
+    </template>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

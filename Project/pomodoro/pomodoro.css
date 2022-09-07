@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@500&display=swap');
+
+/* Body background and font */
+body {
+    background: #3C3F58;
+   
+  }
+  
+  /* Main heading */
+  .heading {
+    font-family: "Montserrat" , sans-serif;
+    color: #50e3c2;
+  }
+  
+  /* Countdown timer */
+  .timer {
+    color:#50e3c2;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid#50e3c2;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  /* remove the padding on the play button */
+  .btn {
+    padding: 0;
+  }
+  
+  /* play and reset icons */
+  .fa-play,
+  .fa-redo-alt {
+    color: #50e3c2;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .fa-play:hover,
+  .fa-redo-alt:hover {
+    color:#50e3c2;
+    border: 2px solid#50e3c2;
+    transition: 0.3s ease;
+  }
+  
+  /* Dynamic class */
+  /* Make the message visible */
+  .show_message {
+    display: block;
+    padding: 1rem 0;
+    color: #272343;
+    background: #50e3c2;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+  }
